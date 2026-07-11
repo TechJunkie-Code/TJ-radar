@@ -6,7 +6,8 @@ echo -e "\e[1;36m=========================================\e[0m"
 echo ""
 echo -e "\e[1;33m[*] Fetching latest configs...\e[0m"
 
-LINK="https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/vless"
+LINK="https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/vless.txt"
+
 curl -s $LINK > all_configs.txt
 
 if [ -s all_configs.txt ]; then
